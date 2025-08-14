@@ -1,0 +1,29 @@
+body{
+    background-color: blue;
+}
+
+input{
+    font-size: 200%;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);   
+}
+
+div{
+    text-align: center;
+    color: white;
+    font-size: 250%;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);   
+}
+
+button{
+    font-size: 250%;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);   
+}
