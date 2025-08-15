@@ -38,7 +38,7 @@ function mainloopAndCalculate(){
         if(type.value === `Text -> Morse`){
             for(let i of input.value.trim().toLowerCase()){
                 if(Char.indexOf(i) === -1){
-                    code = `Invalid Input (Letters or Numbers only)`;
+                    code = `Invalid Input: ${i} is not a Letter and a Number`;
                     break;
                 }
 
@@ -53,7 +53,7 @@ function mainloopAndCalculate(){
         } else{
             for(let i of input.value.trim().split(` `)){
                 if(Morse.indexOf(i) === -1){
-                    code = `Invalid Morse Code`;
+                    code = `Invalid Morse Code: ${i} is not a valid More code`;
                     break;
                 }
 
@@ -75,4 +75,3 @@ function mainloopAndCalculate(){
 
 
 mainloopAndCalculate();
-
